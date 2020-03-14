@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3FBE554E-6453-F4B1-C845-588A00CB5D03" containerWithKeyObject="5958E817-4A6A-FC51-6F96-7AA1F6811605" localFKIndex="C5901150-6A41-3573-E68A-9CDAF2EDBE6A" name="ALTERNATIVAS_PREGUNTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:49:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<referredTableLongName>PREGUNTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21555CCD-B3C4-55CF-D7B1-A634A96F6304</referredTableID>
+<keyObject>AE02114F-AA4F-6A7B-B358-7893FB66416E</keyObject>
+<referredKeyID>AE02114F-AA4F-6A7B-B358-7893FB66416E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_UNICO_P</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

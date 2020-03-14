@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16EA93BC-4553-BFCE-6064-E72744F18480" containerWithKeyObject="9F2F05AC-55BA-37A0-BD00-AE8F49531FCC" localFKIndex="4B9CE72F-4E64-5D81-2FB0-781E0E4DDB8F" name="RespuestaPivote_PREGUNTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 22:57:40 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<referredTableLongName>PREGUNTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>21555CCD-B3C4-55CF-D7B1-A634A96F6304</referredTableID>
+<keyObject>AE02114F-AA4F-6A7B-B358-7893FB66416E</keyObject>
+<referredKeyID>AE02114F-AA4F-6A7B-B358-7893FB66416E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_UNICO_P</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

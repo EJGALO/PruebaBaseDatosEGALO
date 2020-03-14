@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCBE2568-F8CA-29C0-2752-254F1145190A" name="CURSO">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:58:21 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNICO_C" id="11EFE301-4D50-0E91-D240-1DD03C7003E2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:58:38 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC6BDA4-8355-8877-CE32-786164379C81" name="CURSO_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:58:38 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EFE301-4D50-0E91-D240-1DD03C7003E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

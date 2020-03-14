@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5958E817-4A6A-FC51-6F96-7AA1F6811605" name="ALTERNATIVAS">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:42:40 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNICO_A" id="1D838ED8-6CD0-F2A5-8489-82BA6346925D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:47:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_A" id="8C4AEEBE-07E3-BA98-840B-5BEF0399C9D9">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:47:42 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_A" id="F48E539C-1382-5E7B-6022-24D78A7265E0">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:48:09 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO_A" id="E7A19808-0171-0030-33CE-76F56A9AACE2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:48:49 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREGUNTAS_ID_UNICO_P" id="8081286B-4BA6-F516-6CD4-C1A49F776133">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:49:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FBE554E-6453-F4B1-C845-588A00CB5D03" referredColumn="BA54CBF0-F693-189C-616E-BC03DBF90F0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A81A328-30CE-7673-5E10-0D3C62F1F643" name="ALTERNATIVAS_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:47:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D838ED8-6CD0-F2A5-8489-82BA6346925D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5901150-6A41-3573-E68A-9CDAF2EDBE6A" name="ALTERNATIVAS_PREGUNTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:49:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8081286B-4BA6-F516-6CD4-C1A49F776133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB2146E3-EBD2-F019-4FB7-F52B4F242CB5" name="ALTERNATIVAS">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:59:46 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_UNICO_A" id="8D2E650F-5059-13D5-E2A1-D0B25B68AC38">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:59:57 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION_A" id="CC12A63E-8F3D-C6E4-D143-0EE3B370431C">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:00:15 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VALOR_A" id="CB1A6B92-5F69-7902-1A64-9820093E007D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:00:29 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESO_A" id="BAD6AFF8-BCD3-AB85-F68D-CDA2C27EBE9A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:00:43 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNICO_P" id="E0024709-8284-9F8B-D55F-4F6DEA7675A1">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:02:26 UTC</createdTime>
+<generatorID>552A4602-64EB-0521-C4ED-B9F0A0DF055D</generatorID>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<referedAttribute>8329CD58-3E9C-63BA-CB78-AD1D378D3643</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="524564D9-EE64-0B1C-E105-9024DF3966B2" name="ALTERNATIVAS PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:00:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<engineerTo>
+<item key="1E6778B2-6299-2EA1-DDBB-586A3E2242F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D2E650F-5059-13D5-E2A1-D0B25B68AC38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

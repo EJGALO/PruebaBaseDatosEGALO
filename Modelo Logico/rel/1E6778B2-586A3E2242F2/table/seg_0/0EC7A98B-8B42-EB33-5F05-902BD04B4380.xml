@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EC7A98B-8B42-EB33-5F05-902BD04B4380" name="TEST">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:42:15 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UNICO_T" id="87B59406-5BD5-8367-20FF-8DE1EB2BC108">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:44:01 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_T" id="E564D698-2D63-85A3-35B2-FB62E60E4F74">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:44:27 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_T" id="E0797E85-84C9-3F36-3291-2129D08D29C4">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:44:56 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROGRAMA_T" id="65A8AE55-7BEA-C497-EB3A-9B57FECCDDE6">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:45:14 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTOR_T" id="17D68850-ECD7-0AC4-DE1B-348B960AF0AC">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:45:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_T" id="19751683-5827-7124-C3A9-66B500ADB87D">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:45:52 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_ID_UNICO_C" id="D9E67A8A-F40C-D406-32F5-4D66A81D7173">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:42:46 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3963797E-69D1-90C5-7CC0-4382B60DFF9D" referredColumn="11EFE301-4D50-0E91-D240-1DD03C7003E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3EED733-875C-AA5D-4FC1-90AC0EFBAF40" name="TEST_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 20:44:30 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87B59406-5BD5-8367-20FF-8DE1EB2BC108"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37CB257F-5FA6-F711-C097-937641093B0A" name="TEST_CURSO_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:42:46 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9E67A8A-F40C-D406-32F5-4D66A81D7173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

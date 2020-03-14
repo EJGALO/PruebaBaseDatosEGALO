@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C19EA0A-2401-F4E3-1A78-80C00F5B9049" name="ESTUDIANTES">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:26:00 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE_E" id="0C445D7A-D5FB-685B-8F20-6334839794C3">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:26:18 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_P_E" id="D6E9A2FF-50C4-5951-F510-84B3CFCC3D9F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:13:53 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_M_E" id="D743402F-82C8-BDAF-E70F-FFB969FEE807">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:14:09 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_ID_UNICO_C" id="CABFF956-C7C1-61F2-DAFB-C424212B6255">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:42:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E969B28E-3CE4-24FE-1AA5-07F10F388E13" referredColumn="11EFE301-4D50-0E91-D240-1DD03C7003E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1687F7D7-AD9A-8257-F00B-4C82B836C40E" name="ALUMNOS_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 21:26:34 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C445D7A-D5FB-685B-8F20-6334839794C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB2C4D99-C6A9-3C03-B1E6-ECA43FD23740" name="ESTUDIANTES_CURSO_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-12 22:42:50 UTC</createdTime>
+<ownerDesignName>Modelo Logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CABFF956-C7C1-61F2-DAFB-C424212B6255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
